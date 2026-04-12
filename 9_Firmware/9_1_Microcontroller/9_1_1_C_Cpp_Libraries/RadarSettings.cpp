@@ -7,8 +7,8 @@ RadarSettings::RadarSettings() {
 
 void RadarSettings::resetToDefaults() {
     system_frequency = 10.0e9;    // 10 GHz
-    chirp_duration_1 = 30.0e-6;   // 30 �s
-    chirp_duration_2 = 0.5e-6;    // 0.5 �s
+    chirp_duration_1 = 30.0e-6;   // 30 us
+    chirp_duration_2 = 0.5e-6;    // 0.5 us
     chirps_per_position = 32;
     freq_min = 10.0e6;           // 10 MHz
     freq_max = 30.0e6;           // 30 MHz
